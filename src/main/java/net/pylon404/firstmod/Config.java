@@ -1,4 +1,4 @@
-package net.pylon404.removeactivismsplashes;
+package net.pylon404.firstmod;
 
 import java.util.List;
 
