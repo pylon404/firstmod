@@ -1,4 +1,4 @@
-package net.pylon404.firstmod;
+package net.pylon404.pylonfirstmod;
 
 import org.slf4j.Logger;
 
@@ -15,8 +15,8 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(firstMod.MOD_ID)
-public class firstMod {
+@Mod(PylonFirstMod.MOD_ID)
+public class PylonFirstMod {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "pylonfirstmod";
     // Directly reference a slf4j logger
@@ -26,7 +26,7 @@ public class firstMod {
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public firstMod(IEventBus modEventBus, ModContainer modContainer) {
+    public PylonFirstMod(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 

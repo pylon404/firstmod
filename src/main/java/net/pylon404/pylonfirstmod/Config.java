@@ -1,4 +1,4 @@
-package net.pylon404.firstmod;
+package net.pylon404.pylonfirstmod;
 
 import java.util.List;
 
