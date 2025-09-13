@@ -15,7 +15,7 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PylonFirstMod.MOD_ID);
 
     //First Item
-    public static final DeferredItem<Item> TITANIUM =ITEMS.register( "titanium",
+    public static final DeferredItem<Item> TITANIUM_INGOT =ITEMS.register( "titanium_ingot",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

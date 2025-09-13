@@ -54,7 +54,7 @@ public class PylonFirstMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.TITANIUM);
+            event.accept(ModItems.TITANIUM_INGOT);
         }
     }
 

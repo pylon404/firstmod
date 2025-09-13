@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "pylonfirstmod:item/titanium"
+    "layer0": "pylonfirstmod:item/titanium_ingot"
   }
 }
