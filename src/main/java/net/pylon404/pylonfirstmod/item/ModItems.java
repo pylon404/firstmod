@@ -17,6 +17,8 @@ public class ModItems {
     //First Item
     public static final DeferredItem<Item> TITANIUM_INGOT = ITEMS.registerItem( "titanium_ingot",
         Item::new, new Item.Properties());
+    public static final DeferredItem<Item> RAW_TITANIUM = ITEMS.registerItem( "raw_titanium",
+        Item::new, new Item.Properties());
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
