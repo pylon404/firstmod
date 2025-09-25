@@ -1,6 +1,7 @@
 package net.pylon404.pylonfirstmod;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.pylon404.pylonfirstmod.block.ModBlocks;
 import net.pylon404.pylonfirstmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -39,6 +40,8 @@ public class PylonFirstMod {
 
         //Register the items of this mod
         ModItems.register(modEventBus);
+        //Register the blocks of this mod
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -56,6 +59,10 @@ public class PylonFirstMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TITANIUM_INGOT);
             event.accept(ModItems.RAW_TITANIUM);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TITANIUM_ORE);
         }
     }
 

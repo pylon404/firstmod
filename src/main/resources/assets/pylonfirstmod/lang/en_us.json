@@ -1,4 +1,6 @@
 {
   "item.pylonfirstmod.titanium_ingot": "Titanium",
-  "item.pylonfirstmod.raw_titanium": "Raw Titanium"
+  "item.pylonfirstmod.raw_titanium": "Raw Titanium",
+
+  "block.pylonfirstmod.titanium_ore": "Titanium Ore"
 }
