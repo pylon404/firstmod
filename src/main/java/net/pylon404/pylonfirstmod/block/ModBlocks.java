@@ -28,6 +28,27 @@ public class ModBlocks {
                     .strength(4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE));
+    public static final DeferredBlock<Block> DEEPSLATE_TITANIUM_ORE = registerBlock(
+            "deepslate_titanium_ore",
+            properties -> new Block(properties),
+            BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE));
+    public static final DeferredBlock<Block> RAW_TITANIUM_BLOCK = registerBlock(
+            "raw_titanium_block",
+            properties -> new Block(properties),
+            BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.IRON));
+    public static final DeferredBlock<Block> TITANIUM_BLOCK = registerBlock(
+            "titanium_block",
+            properties -> new Block(properties),
+            BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.IRON));
 
 
 
@@ -40,8 +61,9 @@ public class ModBlocks {
     private static <B extends Block> void registerBlock(String name, DeferredBlock<B> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
                 new Item.Properties().setId(ResourceKey.create(Registries.ITEM, ResourceLocation
-                        .fromNamespaceAndPath("pylonfirstmod","titanium_ore")))));
+                        .fromNamespaceAndPath(PylonFirstMod.MOD_ID,name)))));
     }
+
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

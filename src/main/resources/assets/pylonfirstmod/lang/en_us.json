@@ -1,6 +1,13 @@
 {
   "item.pylonfirstmod.titanium_ingot": "Titanium",
   "item.pylonfirstmod.raw_titanium": "Raw Titanium",
+  "item.pylonfirstmod.titanium_ore": "Titanium Ore",
+  "item.pylonfirstmod.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  "item.pylonfirstmod.raw_titanium_block": "Raw Titanium Block",
+  "item.pylonfirstmod.titanium_block": "Titanium Block",
 
-  "block.pylonfirstmod.titanium_ore": "Titanium Ore"
+  "block.pylonfirstmod.titanium_ore": "Titanium Ore",
+  "block.pylonfirstmod.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  "block.pylonfirstmod.raw_titanium_block": "Raw Titanium Block",
+  "block.pylonfirstmod.titanium_block": "Titanium Block"
 }

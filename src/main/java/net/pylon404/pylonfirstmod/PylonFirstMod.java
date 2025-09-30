@@ -63,6 +63,9 @@ public class PylonFirstMod {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.TITANIUM_ORE);
+            event.accept(ModBlocks.TITANIUM_BLOCK);
+            event.accept(ModBlocks.DEEPSLATE_TITANIUM_ORE);
+            event.accept(ModBlocks.RAW_TITANIUM_BLOCK);
         }
     }
 
